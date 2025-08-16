@@ -14,7 +14,7 @@ def get_internet_speed():
         # Set the path to your ChromeDriver executable
         chrome_options = Options()
         chrome_options.add_argument("--headless")
-        chrome_driver_path = r'C:\Users\ratho\OneDrive\Desktop\ZERO_3.0\DATA\ZERO_DRIVERS\chromedriver.exe'
+        chrome_driver_path = r'R:\Projects\3_Advanced_AI_Assistant\ZERO_3.0\DATA\ZERO_DRIVERS\chromedriver.exe'
 
         # Initialize Chrome browser
         service = ChromeService(chrome_driver_path)
