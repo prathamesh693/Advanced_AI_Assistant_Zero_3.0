@@ -10,7 +10,7 @@ chrome_options.add_argument("--headless")  # Run in headless mode (without openi
 
 # Specify the path to your Chrome driver executable
 
-chrome_driver_path = r'C:\Users\ratho\OneDrive\Desktop\ZERO_3.0\DATA\ZERO_DRIVERS\chromedriver.exe'
+chrome_driver_path = r'R:\Projects\3_Advanced_AI_Assistant\ZERO_3.0\DATA\ZERO_DRIVERS\chromedriver.exe'
 
 # Create a Service object with the specified executable path
 chrome_service = Service(chrome_driver_path)
