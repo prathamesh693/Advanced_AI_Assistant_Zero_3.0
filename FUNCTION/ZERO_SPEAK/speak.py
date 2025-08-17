@@ -39,8 +39,7 @@ def speak(text):
     print(text_to_input)
 
     # Calculate sleep duration based on sentence length
-    sleep_duration = min(0.2+len(text)//5,5) # Minimun sleep is 3 seconds and Max. sleep is 3s
-
+    sleep_duration = min(0.2+len(text)//20,50)
     # Wait for the button to be clickable 
     button_to_click = WebDriverWait(driver, 1).until(
         EC.element_to_be_clickable((By.XPATH,'//*[@id="button"]'))
