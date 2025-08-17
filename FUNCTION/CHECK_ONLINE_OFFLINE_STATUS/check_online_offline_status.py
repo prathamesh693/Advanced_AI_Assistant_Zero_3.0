@@ -12,7 +12,7 @@ def is_online(url="https://www.google.com",timeout=5):
 # Example usage
 def internet_status():
     if is_online():
-        x="online"
+        x="Yes sir! I am ready and online"
         return x
     else:
         x="offline"
