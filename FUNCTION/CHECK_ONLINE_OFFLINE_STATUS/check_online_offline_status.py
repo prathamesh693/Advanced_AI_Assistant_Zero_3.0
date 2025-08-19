@@ -1,4 +1,7 @@
 import requests
+from FUNCTION.OFFLINE_VOICE.speak2 import fspeak
+from FUNCTION.ZERO_SPEAK.speak import speak
+
 
 def is_online(url="https://www.google.com",timeout=5):
     try:
@@ -13,7 +16,10 @@ def is_online(url="https://www.google.com",timeout=5):
 def internet_status():
     if is_online():
         x="Yes sir! I am ready and online"
-        return x
+        speak(x)
     else:
-        x="offline"
-        return x
+        x="Hey there sir! I am Female AI, Sorry Zero is not online"
+        print(x)
+
+
+
