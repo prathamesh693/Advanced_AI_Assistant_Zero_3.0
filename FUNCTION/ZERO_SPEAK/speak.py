@@ -40,7 +40,7 @@ def speak(text):
         sleep_duration = min(0.2 + len(text) // 20, 50)
 
         # Wait for the button to be clickable
-        button_to_click = WebDriverWait(driver, 3).until(
+        button_to_click = WebDriverWait(driver, 2).until(
             EC.element_to_be_clickable((By.XPATH, '//*[@id="button"]')))
 
         # Perform the click action on the button
