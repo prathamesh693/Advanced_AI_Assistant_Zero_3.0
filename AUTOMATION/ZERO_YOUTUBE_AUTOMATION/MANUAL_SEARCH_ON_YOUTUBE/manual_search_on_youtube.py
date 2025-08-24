@@ -6,6 +6,7 @@ from DATA.ZERO_DLG_DATASET.DLG import s2, s1
 
 
 def search_manual(text):
+    text=text.replace("search","")
     ui.press("/")
     ui.write(text)
     s12 = random.choice(s1)
