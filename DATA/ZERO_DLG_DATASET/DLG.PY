@@ -336,6 +336,7 @@ wake_key_word=[
 goodbye_phrases = [
     "bye",
     "goodbye",
+    "good bye",
     "see you later",
     "talk to you soon",
     "exit",
@@ -364,8 +365,6 @@ goodbye_phrases = [
     "good night zero",
     "zero, see you tomorrow",
     "disconnect zero",
-    "zero off",
-    "zero stop",
     "zero, i am done",
     "kaafi hai aaj ke liye zero",
     "bye zero",
