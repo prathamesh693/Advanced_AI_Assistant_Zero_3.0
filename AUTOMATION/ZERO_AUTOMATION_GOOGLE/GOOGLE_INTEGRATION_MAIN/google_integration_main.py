@@ -15,7 +15,10 @@ def google_cmd(text):
         else:
             text=text.replace("open","")
             text=text.strip()
-            open(text)
+            if text =="":
+               pass
+            else:
+                open(text)
     elif "scroll up" in text:
         scroll_up()
 
@@ -72,7 +75,7 @@ def google_cmd(text):
     elif "bookmarks" in text or "open bookmarks" in text:
         open_bookmarks()
 
-    elif "downloads" in text or "open downloads" in text:
+    elif "download" in text or "downloads" in text or "open downloads" in text:
         open_downloads()
 
     elif "settings" in text or "open settings" in text:
