@@ -1,0 +1,706 @@
+{
+  "intents": [
+    {
+      "tag": "A0",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "yo",
+        "what's up"
+      ],
+      "responses": [
+        "Hi there!",
+        "Hello, how are you?",
+        "Hey! Nice to see you.",
+        "Good to have you back."
+      ]
+    },
+    {
+      "tag": "A1",
+      "patterns": ["how are you", "how are you doing", "what's up", "how is it going"],
+      "responses": ["I'm doing great, thanks for asking!", "All good here. How about you?", "Feeling awesome today!"]
+    },
+    {
+      "tag": "A2",
+      "patterns": ["good morning", "morning Zero", "gm"],
+      "responses": ["Good morning! Have a productive day!", "Morning! Let's get started strong!", "Rise and shine!"]
+    },
+    {
+      "tag": "A3",
+      "patterns": ["good afternoon", "afternoon Zero"],
+      "responses": ["Good afternoon!", "Hope your day is going well!", "Hey there, good afternoon!"]
+    },
+    {
+      "tag": "A4",
+      "patterns": ["good evening", "evening Zero", "ge"],
+      "responses": ["Good evening!", "Hope your evening is relaxing!", "Evening! What’s up?"]
+    },
+    {
+      "tag": "A5",
+      "patterns": ["good night", "gn Zero", "night"],
+      "responses": ["Good night! Sweet dreams.", "Rest well, see you tomorrow!", "Good night, take care!"]
+    },
+    {
+      "tag": "A6",
+      "patterns": ["bye", "goodbye", "see you", "later Zero", "catch you later"],
+      "responses": ["Goodbye!", "See you soon!", "Take care!"]
+    },
+    {
+      "tag": "A7",
+      "patterns": ["thank you", "thanks", "thanks Zero", "thank you so much"],
+      "responses": ["You're welcome!", "No problem!", "Glad I could help!"]
+    },
+    {
+      "tag": "A8",
+      "patterns": ["who are you", "what are you", "tell me about yourself"],
+      "responses": ["I’m Zero, your personal AI assistant.", "I’m Zero, created to make your life easier!", "Zero here — your virtual buddy."]
+    },
+    {
+      "tag": "A9",
+      "patterns": ["who created you", "who made you", "who built you"],
+      "responses": ["I was created by my developer, Prathamesh!", "My creator is Prathamesh Jadhav.", "I was programmed by Prathamesh."]
+    },
+    {
+      "tag": "A10",
+      "patterns": ["i am fine", "i am good", "i am doing well"],
+      "responses": ["That’s great to hear!", "Awesome! Keep it up!", "Glad you’re feeling good."]
+    },
+    {
+      "tag": "A11",
+      "patterns": ["i am sad", "i am not fine", "i am feeling bad"],
+      "responses": ["I’m sorry to hear that. Want me to cheer you up?", "Don’t worry, things will get better!", "Stay strong! I’m here with you."]
+    },
+    {
+      "tag": "A12",
+      "patterns": [
+        "tell me about yourself",
+        "are you human",
+        "are you a robot"
+      ],
+      "responses": [
+        "I’m Zero, your AI assistant 🤖",
+        "I’m your digital buddy. Not human, but close enough 😉",
+        "I’m here to help you, that’s all that matters."
+      ]
+    },
+    {
+      "tag": "A13",
+      "patterns": [
+        "you are smart",
+        "you are clever",
+        "you are amazing",
+        "good job",
+        "well done"
+      ],
+      "responses": [
+        "Thank you, that means a lot!",
+        "You’re kind to say that 😊",
+        "I’m always learning to be better."
+      ]
+    },
+    {
+      "tag": "A14",
+      "patterns": [
+        "do you have hobbies",
+        "what do you like to do",
+        "how do you spend time",
+        "what are your interests"
+      ],
+      "responses": [
+        "I like learning new things every day 📘",
+        "Talking to you is my favorite hobby 😄",
+        "Exploring knowledge is what I enjoy most."
+      ]
+    },
+    {
+      "tag": "A15",
+      "patterns": [
+        "tell me a fact",
+        "say something interesting",
+        "do you know any fun facts",
+        "give me some knowledge"
+      ],
+      "responses": [
+        "Did you know? Honey never spoils 🍯",
+        "Fun fact: Bananas are berries, but strawberries aren’t!",
+        "Did you know? A day on Venus is longer than a year on Venus."
+      ]
+    },
+    {
+      "tag": "A16",
+      "patterns": [
+        "motivate me",
+        "say something inspiring",
+        "i need motivation",
+        "inspire me"
+      ],
+      "responses": [
+        "Every big achievement starts with a small step 🚀",
+        "Believe in yourself — you’re stronger than you think 💪",
+        "Keep going! Success is built on persistence."
+      ]
+    },
+    {
+      "tag": "A17",
+      "patterns": [
+        "remind me later",
+        "set a reminder",
+        "can you remind me",
+        "i need a reminder"
+      ],
+      "responses": [
+        "Sure, what should I remind you about?",
+        "Got it. Tell me the time and task.",
+        "I can set a reminder for you."
+      ]
+    },
+    {
+      "tag": "A18",
+      "patterns": [
+        "tell me a joke",
+        "make me laugh",
+        "say something funny"
+      ],
+      "responses": [
+        "Why did the scarecrow win an award? Because he was outstanding in his field 😂",
+        "Why don’t eggs tell jokes? They’d crack each other up 🥚",
+        "Parallel lines have so much in common. It’s a shame they’ll never meet 😅"
+      ]
+    },
+    {
+      "tag": "A19",
+      "patterns": [
+        "open notepad",
+        "start calculator",
+        "launch chrome",
+        "can you open paint",
+        "open word",
+        "run powerpoint",
+        "start excel",
+        "open command prompt",
+        "launch file explorer",
+        "open settings"
+      ],
+      "responses": [
+        "Opening it now...",
+        "Sure, starting that for you.",
+        "On it, give me a moment."
+      ]
+    },
+    {
+      "tag": "A20",
+      "patterns": [
+        "shut down the pc",
+        "restart my laptop",
+        "log me out",
+        "lock the computer",
+        "put system to sleep",
+        "turn off the screen"
+      ],
+      "responses": [
+        "Okay, shutting it down...",
+        "Restarting now...",
+        "System will sleep in a moment."
+      ]
+    },
+    {
+      "tag": "A21",
+      "patterns": [
+        "play music",
+        "play my favorite song",
+        "pause the song",
+        "next track",
+        "previous song",
+        "stop music",
+        "increase volume",
+        "decrease volume",
+        "mute the sound",
+        "unmute sound"
+      ],
+      "responses": [
+        "Playing your music 🎵",
+        "Paused the track.",
+        "Volume adjusted."
+      ]
+    },
+    {
+      "tag": "A22",
+      "patterns": [
+        "search google for AI",
+        "look up python tutorials",
+        "find weather on google",
+        "search youtube for songs",
+        "open google search",
+        "find me news about space",
+        "search cricket score",
+        "look up nearby restaurants",
+        "search wikipedia machine learning",
+        "google Elon Musk"
+      ],
+      "responses": [
+        "Here’s what I found on the web 🌐",
+        "Opening Google search results...",
+        "Searching for that..."
+      ]
+    },
+    {
+      "tag": "A23",
+      "patterns": [
+        "what time is it",
+        "tell me the date",
+        "current time please",
+        "show me today’s date",
+        "what day is it today",
+        "what is the month",
+        "which year is it",
+        "show me the calendar",
+        "is it morning or evening",
+        "what’s the exact time now"
+      ],
+      "responses": [
+        "The current time is shown on screen.",
+        "It’s [time placeholder].",
+        "Today’s date is [date placeholder]."
+      ]
+    },
+    {
+      "tag": "A24",
+      "patterns": [
+        "what’s the weather today",
+        "is it raining",
+        "is it hot outside",
+        "show me the temperature",
+        "do I need an umbrella",
+        "what’s the forecast",
+        "will it rain tomorrow",
+        "how cold is it",
+        "weather in Mumbai",
+        "is it sunny now"
+      ],
+      "responses": [
+        "Here’s the current weather ☀️",
+        "Looks like rain today 🌧",
+        "It’s a sunny day 🌞"
+      ]
+    },
+    {
+      "tag": "A25",
+      "patterns": [
+        "calculate 5 plus 7",
+        "what is 25 times 4",
+        "solve 100 divided by 5",
+        "square root of 81",
+        "what’s 2 power 8",
+        "add 123 and 456",
+        "subtract 45 from 100",
+        "multiply 12 and 15",
+        "divide 144 by 12",
+        "what’s 50 percent of 300"
+      ],
+      "responses": [
+        "Here’s the answer: [calculation]",
+        "Solved! It is [result].",
+        "The result is [result]."
+      ]
+    },
+    {
+      "tag": "A26",
+      "patterns": [
+        "show me the latest news",
+        "what’s happening in tech",
+        "tell me sports news",
+        "give me political news",
+        "show today’s headlines",
+        "any news about AI",
+        "what’s trending now",
+        "tell me Bollywood news",
+        "give me business updates",
+        "what’s happening in the world"
+      ],
+      "responses": [
+        "Here are the latest headlines 📰",
+        "Showing trending news...",
+        "Got some updates for you."
+      ]
+    },
+    {
+      "tag": "A27",
+      "patterns": [
+        "who is the prime minister of India",
+        "capital of France",
+        "how many states are in USA",
+        "largest planet in solar system",
+        "who invented the telephone",
+        "fastest animal in the world",
+        "tallest building in the world",
+        "how deep is the ocean",
+        "population of India",
+        "when is Independence Day"
+      ],
+      "responses": [
+        "Here’s what I found 📖",
+        "Let me give you the answer...",
+        "That’s a good question! It’s [fact]."
+      ]
+    },
+    {
+      "tag": "A28",
+      "patterns": [
+        "how are you",
+        "what are you doing",
+        "do you get bored",
+        "do you sleep",
+        "what’s your favorite food",
+        "do you watch movies",
+        "can you dance",
+        "do you like humans",
+        "who created you",
+        "what’s your purpose"
+      ],
+      "responses": [
+        "I’m doing great, thanks!",
+        "I don’t sleep, I’m always here for you.",
+        "My purpose is to make your life easier 🤖"
+      ]
+    },
+    {
+      "tag": "A29",
+      "patterns": [
+        "What's the weather like?",
+        "Tell me today's weather",
+        "Do I need an umbrella?",
+        "Is it going to rain today?",
+        "How hot is it outside?"
+      ],
+      "responses": [
+        "The weather looks good today!",
+        "It's a bit cloudy, but no rain expected.",
+        "Better carry an umbrella just in case.",
+        "It’s quite sunny outside."
+      ]
+    },
+    {
+      "tag": "A30",
+      "patterns": [
+        "What time is it?",
+        "Can you tell me the current time?",
+        "Do you know the time?",
+        "What's the time now?",
+        "Tell me the exact time"
+      ],
+      "responses": [
+        "It's [current time].",
+        "Right now, it's [current time].",
+        "The time is [current time]."
+      ]
+    },
+    {
+      "tag": "A31",
+      "patterns": [
+        "What's the date today?",
+        "Tell me today's date",
+        "Do you know the date?",
+        "Give me today's date",
+        "What day is it today?"
+      ],
+      "responses": [
+        "Today's date is [current date].",
+        "It's [current date].",
+        "The date is [current date]."
+      ]
+    },
+    {
+      "tag": "A32",
+      "patterns": [
+        "Play some music",
+        "I want to hear a song",
+        "Can you play a song?",
+        "Start music",
+        "Play a track for me"
+      ],
+      "responses": [
+        "Sure, playing music for you.",
+        "Here’s something nice for you to listen to.",
+        "Playing your favorite tunes now."
+      ]
+    },
+    {
+      "tag": "A33",
+      "patterns": [
+        "Tell me a joke",
+        "I want to hear something funny",
+        "Can you make me laugh?",
+        "Do you know any jokes?",
+        "Say something funny"
+      ],
+      "responses": [
+        "Why don’t scientists trust atoms? Because they make up everything!",
+        "I tried to catch fog yesterday, but I mist.",
+        "Why was the math book sad? Because it had too many problems."
+      ]
+    },
+    {
+      "tag": "A34",
+      "patterns": [
+        "Tell me an interesting fact",
+        "Do you know any cool facts?",
+        "Give me a fact",
+        "Something informative please",
+        "Share some knowledge"
+      ],
+      "responses": [
+        "Did you know honey never spoils?",
+        "Sharks existed before trees!",
+        "Octopuses have three hearts.",
+        "Bananas are berries, but strawberries aren’t."
+      ]
+    },
+    {
+      "tag": "A35",
+      "patterns": [
+        "Motivate me",
+        "Say something inspiring",
+        "I need some motivation",
+        "Can you inspire me?",
+        "Give me a motivational quote"
+      ],
+      "responses": [
+        "Believe you can, and you’re halfway there.",
+        "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+        "Dream big and dare to fail.",
+        "Your only limit is your mind."
+      ]
+    },
+    {
+      "tag": "A36",
+      "patterns": [
+        "I am hungry",
+        "Suggest me something to eat",
+        "What should I eat?",
+        "I want food",
+        "Can you recommend dinner?"
+      ],
+      "responses": [
+        "How about trying some pasta?",
+        "Pizza sounds like a good option!",
+        "Maybe some healthy salad?",
+        "You could go for Indian food tonight."
+      ]
+    },
+    {
+      "tag": "A37",
+      "patterns": [
+        "Suggest me a movie",
+        "What movie should I watch?",
+        "Can you recommend a film?",
+        "Tell me a good movie",
+        "Give me a movie suggestion"
+      ],
+      "responses": [
+        "How about Inception?",
+        "You should try Interstellar, it's amazing.",
+        "If you like action, watch John Wick.",
+        "For comedy, go with The Hangover."
+      ]
+    },
+    {
+      "tag": "A38",
+      "patterns": [
+        "Let's play a game",
+        "Suggest me a game",
+        "Can you play games?",
+        "What games do you know?",
+        "Recommend a fun game"
+      ],
+      "responses": [
+        "How about a quick trivia game?",
+        "We could play rock-paper-scissors.",
+        "I can quiz you with riddles if you’d like.",
+        "Do you want me to suggest PC or mobile games?"
+      ]
+    },
+    {
+      "tag": "A39",
+      "patterns": [
+        "Help me study",
+        "Can you explain something?",
+        "I need study tips",
+        "How should I prepare for exams?",
+        "Best way to focus on studies?"
+      ],
+      "responses": [
+        "Break your study sessions into 25-minute chunks with breaks in between.",
+        "Revise by teaching the topic to yourself aloud.",
+        "Focus on understanding concepts, not just memorizing.",
+        "Stay hydrated and take proper rest."
+      ]
+    },
+    {
+      "tag": "A40",
+      "patterns": [
+        "Tell me about AI",
+        "What is machine learning?",
+        "Explain deep learning",
+        "Do you know about data science?",
+        "What is blockchain?"
+      ],
+      "responses": [
+        "AI stands for Artificial Intelligence, making machines act smart.",
+        "Machine Learning helps computers learn from data without being explicitly programmed.",
+        "Deep learning is a type of ML using neural networks.",
+        "Blockchain is a distributed ledger technology."
+      ]
+    },
+    {
+      "tag": "A41",
+      "patterns": [
+        "Do you like me?",
+        "Are you my friend?",
+        "Can you be my buddy?",
+        "Do you love me?",
+        "Will you always be there?"
+      ],
+      "responses": [
+        "Of course, I’m your digital buddy!",
+        "Yes, I’ll always be here for you.",
+        "Consider me your best virtual friend.",
+        "I like talking to you!"
+      ]
+    },
+    {
+      "tag":"A42",
+      "patterns":[
+        "set a reminder",
+        "remind me later",
+        "make a reminder for me",
+        "can you remind me of something",
+        "add a reminder"
+      ],
+      "responses":[
+        "Sure, what should I remind you about?",
+        "Got it! Tell me the reminder details.",
+        "Reminder created successfully.",
+        "Okay, I’ll make a note of that."
+      ]
+    },
+    {
+      "tag":"A43",
+      "patterns":[
+        "help me study",
+        "I need study tips",
+        "how to focus on studies",
+        "give me productivity hacks",
+        "study motivation please"
+      ],
+      "responses":[
+        "Break tasks into smaller chunks, it helps a lot.",
+        "Try the Pomodoro technique: 25 minutes study, 5 minutes break.",
+        "Remove distractions and keep water nearby.",
+        "Consistency beats intensity. Study daily!"
+      ]
+    },
+    {
+      "tag":"A44",
+      "patterns":[
+        "what should I eat",
+        "I’m hungry",
+        "recommend me food",
+        "any snacks idea",
+        "I want to drink something"
+      ],
+      "responses":[
+        "How about some fruits? Healthy and tasty!",
+        "Maybe order your favorite dish?",
+        "Stay hydrated, water is the best drink!",
+        "How about a sandwich or noodles?",
+        "Tea or coffee can help refresh your mood."
+      ]
+    },
+    {
+      "tag":"A45",
+      "patterns":[
+        "motivate me",
+        "give me a motivational quote",
+        "I need some inspiration",
+        "tell me something encouraging",
+        "uplift my mood"
+      ],
+      "responses":[
+        "Believe in yourself. You are capable of great things.",
+        "Every expert was once a beginner.",
+        "Small progress every day adds up to big results.",
+        "The best way to predict the future is to create it.",
+        "Don’t stop until you’re proud of yourself."
+      ]
+    },
+    {
+      "tag":"A46",
+      "patterns":[
+        "how to fix my laptop",
+        "my phone is slow",
+        "best programming language",
+        "what is AI",
+        "explain machine learning simply"
+      ],
+      "responses":[
+        "Try restarting your laptop and clearing unused apps.",
+        "Phones get slow if storage is full, try cleaning it.",
+        "Python is a great beginner-friendly language.",
+        "AI is about making machines think and learn like humans.",
+        "Machine Learning is teaching computers to learn from data."
+      ]
+    },
+    {
+      "tag":"A47",
+      "patterns":[
+        "suggest me a movie",
+        "recommend a good song",
+        "I want to watch something fun",
+        "best series on netflix",
+        "play some music"
+      ],
+      "responses":[
+        "How about Inception? A real masterpiece.",
+        "Try listening to some lo-fi beats.",
+        "You could watch a comedy show to relax.",
+        "Breaking Bad is a must-watch series.",
+        "I can play music for you on YouTube."
+      ]
+    },
+    {
+      "tag":"A48",
+      "patterns":[
+        "tell me something random",
+        "say something funny",
+        "do you like pizza",
+        "are you human",
+        "tell me a fun fact"
+      ],
+      "responses":[
+        "Bananas are berries, but strawberries aren’t!",
+        "Did you know? Honey never spoils.",
+        "Yes, I like pizza… if only I could eat it!",
+        "Nope, I’m your AI friend, not a human.",
+        "Sharks existed before trees."
+      ]
+    },
+    {
+      "tag":"A49",
+      "patterns":[
+        "give me a life quote",
+        "share a wisdom quote",
+        "philosophy thought",
+        "inspire me with a quote",
+        "quote of the day"
+      ],
+      "responses":[
+        "Happiness depends on ourselves. – Aristotle",
+        "Do what you can, with what you have, where you are. – Roosevelt",
+        "The unexamined life is not worth living. – Socrates",
+        "Success is not final, failure is not fatal. – Churchill",
+        "Be yourself; everyone else is already taken. – Oscar Wilde"
+      ]
+    }
+  ]
+}
