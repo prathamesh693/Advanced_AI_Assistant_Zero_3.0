@@ -12,6 +12,7 @@ def detect_emotion(text):
     overjoyed_keywords = ['overjoyed']
     elated_keywords = ['elated']
     joyful_keywords = ['joyful']
+    
     happy_keywords = ['happy']
     cheerful_keywords = ['cheerful']
     content_keywords = ['content']
