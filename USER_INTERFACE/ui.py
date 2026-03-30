@@ -4,6 +4,7 @@ from PyQt5.QtCore import Qt, QTimer, QSize,pyqtSignal,QObject
 import threading
 import subprocess
 import os
+import sys
 import pyautogui as gui
 
 class SizeAnimator(QObject):
@@ -75,11 +76,18 @@ class ZeroUI(QWidget):
             # Get the directory where ui.py is located
             current_directory=os.path.dirname(os.path.abspath(__file__))
 
-            # Specify the path to main.py based on the current directory
-            path_to_main_py=os.path.join(current_directory,r"R:\Projects\3_Advanced_AI_Assistant\ZERO_3.0\MAIN\main.py")
+            # Locate main.py relative to the project structure to keep paths portable
+            path_to_main_py=os.path.abspath(os.path.join(current_directory, "..", "MAIN", "main.py"))
 
-            command=["python",path_to_main_py]
-            self.process=subprocess.Popen(command,stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True,cwd=current_directory)
+            # Run using the same Python interpreter that launched the UI (works with venv)
+            command=[sys.executable, path_to_main_py]
+
+            # Ensure the project root is in PYTHONPATH so top-level packages (like AUTOMATION) are importable
+            env = os.environ.copy()
+            project_root = os.path.abspath(os.path.join(current_directory, ".."))
+            env["PYTHONPATH"] = project_root
+
+            self.process=subprocess.Popen(command,stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True,cwd=os.path.dirname(path_to_main_py), env=env)
 
             # Capture and display the output
             output,_=self.process.communicate()
